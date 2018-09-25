@@ -1,0 +1,92 @@
+body {
+    color: lightskyblue;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightslategray;
+
+ position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+
+}
+
+li{ float: center
+
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover{background-color: darkgrey;
+
+
+}
+
+li a:red {
+    background-color: #555;
+    color: white;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Vertical Navigation Bar</h2>
+
+<ul>
+  <li><a href="#start">Start</a></li>
+  <li><a href="#introductie">Introductie</a></li>
+  <li><a href="#opleiding">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+img  {
+    float: right;
+}
+p {font-size: 25px;}
+
+.right {
+	float: right;
+
+}
+a {
+
+	right:500px;
+}
+.left {
+   float: left;
+}
+
+img.right {
+	float: right;
+}
+body {background-color: gainsboro;
+  background-image: url("background5.jpg");
+
+        background-repeat: no-repeat;
+    background-size: cover;}
+body, html {
+    height: 100%;
+}
+
+
+p {
+    font-family: "Courier New", serif;
+}
+body{
+    background-image: url("background5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
