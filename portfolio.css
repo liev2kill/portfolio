@@ -36,20 +36,6 @@ li a:red {
     color: white;
 }
 
-</style>
-</head>
-<body>
-
-<h2>Vertical Navigation Bar</h2>
-
-<ul>
-  <li><a href="#start">Start</a></li>
-  <li><a href="#introductie">Introductie</a></li>
-  <li><a href="#opleiding">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-
 img  {
     float: right;
 }
@@ -57,6 +43,9 @@ p {font-size: 25px;}
 
 .right {
 	float: right;
+   border:2px solid black;
+   width: 400;
+    height:290;
 
 }
 a {
@@ -65,10 +54,15 @@ a {
 }
 .left {
    float: left;
+   border: 1px solid black ;
+   width:240; 
+   height:240;
+   margin: 5px;
 }
 
 img.right {
 	float: right;
+  padding: 5px;
 }
 body {background-color: gainsboro;
   background-image: url("background5.jpg");
@@ -87,6 +81,18 @@ body{
     background-image: url("background5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+#comenius{
+  width:250px;
+  height:100px;
+  border:2px solid black;
+}
+.boeken{
+  float: left;
+  border: 2px;
+  width: 240px;
+  height: 240px;
+  padding: 5px; 
 }
 
 
